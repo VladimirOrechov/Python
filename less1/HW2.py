@@ -7,6 +7,19 @@
 # 5 -> 1 0 1 1 0
 # 2
 
+# monet = int(input('Введите кол-во монет: '))
+# tails = 0
+# emblem = 0
+# for i in range(monet):
+#     x = int(input('Введите 0 или 1: '))
+#     if x == 0:
+#         tails += 1
+#     else:
+#         emblem += 1
+# if tails < emblem:
+#     print(f'Нужно перевернуть решку {tails} раз')
+# else:
+#     print(f'Нужно перевернуть герб {emblem} раз')
 
 # Задача 12: Петя и Катя – брат и сестра. Петя – студент, а Катя –
 # школьница. Петя помогает Кате по математике. Он задумывает два
@@ -16,8 +29,22 @@
 # 4 4 -> 2 2
 # 5 6 -> 2 3
 
+# numberX = int(input('Введите число X: '))
+# numberY= int(input('Введите число Y: '))
+
+# for i in range(numberX):
+#   for j in range(numberY):
+#     if numberX == i + j and numberY == i * j:
+#       print(i, j)
 
 # Задача 14: Требуется вывести все целые степени двойки (т.е. числа
 # вида 2k
 # ), не превосходящие числа N.
 # 10 -> 1 2 4 8
+
+
+# n = int(input('Введите число: '))
+# i = 0
+# while 2 ** i <= n:
+#     print(2 ** i, end=' ')
+#     i +=1
